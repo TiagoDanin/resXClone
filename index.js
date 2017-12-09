@@ -6,7 +6,7 @@ var builder = require('xmlbuilder')
 
 function writeXml(name, xml) {
 	fs.writeFileSync(name, xml)
-	return
+	return true
 }
 
 function readXml(name) {
@@ -23,11 +23,15 @@ function readXml(name) {
 	}
 }
 
-function updateXml(stringsOriginal, stringsClone) {
+function updateXml(stringsOriginal, stringsClone, prefix) {
 	var newStrings = stringsOriginal
 	for(var index in stringsOriginal) {
 		if (stringsClone[index]) {
-			newStrings[index] = stringsClone[index] || ''
+			if (prefix) {
+				newStrings[index] = prefix + stringsClone[index] || prefix + ''
+			} else {
+				newStrings[index] = stringsClone[index] || ''
+			}
 		}
 	}
 	return newStrings
