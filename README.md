@@ -1,7 +1,7 @@
-# resXClone [![Build Status](https://travis-ci.org/TiagoDanin/resXClone.svg?branch=master)](https://travis-ci.org/TiagoDanin/resXClone)
+# resXClone [![Build Status](https://travis-ci.org/TiagoDanin/resXClone.svg?branch=master)](https://travis-ci.org/TiagoDanin/resXClone) [![Greenkeeper badge](https://badges.greenkeeper.io/TiagoDanin/resXClone.svg)](https://greenkeeper.io/)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/TiagoDanin/resXClone.svg)](https://greenkeeper.io/)
 [![NPM](https://nodei.co/npm/resxclone.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/resxclone/)
+
 A utility to clone and update xml resources file
 
 # Install
