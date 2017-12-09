@@ -8,7 +8,7 @@ assert.equal((app.readXml('a.xml')).string.name, ({ string: { name: 'Tiago' } })
 assert.equal(app.readXml('b.xml'), false)
 console.log('[+] 50% OK')
 assert.equal((app.updateXml({name:'Tiago'}, {name: 'TiagoDanin'})).name, ({ name: 'TiagoDanin' }).name)
-assert.equal((app.updateXml({name:'Tiago'}, {name: 'TiagoDanin'}, '##')).name,  '##' + ({ name: 'TiagoDanin' }).name)
+assert.equal((app.updateXml({name:'TiagoDanin'}, {}, '##')).name,  '##' + ({ name: 'TiagoDanin' }).name)
 assert.equal(app.createXml({name: 'TiagoDanin'}), `<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="name">TiagoDanin</string>

@@ -27,11 +27,9 @@ function updateXml(stringsOriginal, stringsClone, prefix) {
 	var newStrings = stringsOriginal
 	for(var index in stringsOriginal) {
 		if (stringsClone[index]) {
-			if (prefix) {
-				newStrings[index] = prefix + stringsClone[index] || prefix + ''
-			} else {
-				newStrings[index] = stringsClone[index] || ''
-			}
+			newStrings[index] = stringsClone[index] || ''
+		} else if (prefix) {
+			newStrings[index] =  prefix + stringsOriginal[index] || prefix + ''
 		}
 	}
 	return newStrings
