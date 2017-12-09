@@ -10,7 +10,7 @@ Run `node cli.js --help`
 
 **writeXml**
 - `writeXml(name, xml)`
-e.g `writeXml('a.xml', '<?xml version="1.0" encoding="utf-8"?><resources><string name="settings">Settings</string></resources>')`
+e.g `writeXml('a.xml', '<?xml version="1.0" encoding="utf-8"?><resources><string name="name">Tiago</string></resources>')`
 
 **readXml**
 - `readXml(name)`
