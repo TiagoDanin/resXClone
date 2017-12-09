@@ -1,0 +1,29 @@
+{
+  "name": "resxclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoDanin/resXClone.git"
+  },
+  "keywords": [
+    "android",
+    "windows",
+    "iphone",
+    "clone",
+    "xml",
+    "res",
+    "resources",
+    "translation"
+  ],
+  "author": "Tiago Danin <TiagoDanin@outlook.com> (https://TiagoDanin.github.io)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TiagoDanin/resXClone/issues"
+  },
+  "homepage": "https://github.com/TiagoDanin/resXClone#readme"
+}
