@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/TiagoDanin/resXClone/issues"
   },
-  "homepage": "https://github.com/TiagoDanin/resXClone#readme"
+  "homepage": "https://github.com/TiagoDanin/resXClone#readme",
+  "dependencies": {
+    "rdotjson": "0.1.2",
+    "xmlbuilder": "9.0.4"
+  }
 }
