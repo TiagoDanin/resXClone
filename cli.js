@@ -4,9 +4,9 @@ var app  = require('./index.js')
 prog
 	.version('1.0.0')
 	.description('A utility to clone and update xml resources file')
-	.argument('<file>', 'path/file of the original file', prog.REPEATABLE)
-	.argument('<clone>', 'path/file of the clone file', prog.REPEATABLE)
-	.argument('<prefix>', 'path/file of the clone file', prog.REPEATABLE)
+	.argument('<file>', 'Path/file of the original file', prog.REPEATABLE)
+	.argument('<clone>', 'Path/file of the clone file', prog.REPEATABLE)
+	.argument('<prefix>', 'Prefix for new translations', prog.REPEATABLE)
 	.action(function(args, options, logger) {
 		console.log(args)
 		try {

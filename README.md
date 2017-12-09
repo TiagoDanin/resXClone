@@ -2,6 +2,10 @@
 [![NPM](https://nodei.co/npm/resxclone.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/resxclone/)
 A utility to clone and update xml resources file
 
+# Install
+
+NPM `npm install resxclone`
+
 # CLI
 
 Run `node cli.js --help`
