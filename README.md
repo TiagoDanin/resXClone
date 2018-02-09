@@ -1,4 +1,4 @@
-# resXClone [![Build Status](https://travis-ci.org/TiagoDanin/resXClone.svg?branch=master)](https://travis-ci.org/TiagoDanin/resXClone) [![Greenkeeper badge](https://badges.greenkeeper.io/TiagoDanin/resXClone.svg)](https://greenkeeper.io/)
+# resXClone [![Build Status](https://travis-ci.org/TiagoDanin/resXClone.svg?branch=master)](https://travis-ci.org/TiagoDanin/resXClone)
 
 [![NPM](https://nodei.co/npm/resxclone.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/resxclone/)
 
