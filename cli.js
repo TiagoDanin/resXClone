@@ -1,5 +1,8 @@
+#!/usr/bin/env node
+
 var prog = require('caporal')
-var app  = require('./index.js')
+var app  = require('resxclone')
+var path = require('path')
 
 prog
 	.version('1.0.0')
@@ -12,18 +15,15 @@ prog
 		try {
 			logger.info('[+] Start')
 			var prefix = args['prefix']
-			var file = app.readXml(args['file'])
-			var clone = app.readXml(args['clone'])
+			var dir = process.cwd() +  '\\'
+			var file = app.readXml(path.resolve(dir + args['file']))
+			var clone = app.readXml(path.resolve(dir + args['clone']))
 			var xml = ''
 			if (!file) {
 				return logger.error('')
 			}
 			if (clone) {
-				if (prefix) {
-					xml = app.createXml(app.updateXml(file.string, clone.string, prefix))
-				} else {
-					xml = app.createXml(app.updateXml(file.string, clone.string))
-				}
+				xml = app.createXml(app.updateXml(file.string, clone.string, prefix))
 			} else {
 				xml = app.createXml(file.string)
 			}
