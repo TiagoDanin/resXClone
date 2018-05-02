@@ -10,7 +10,7 @@ NPM `npm install resxclone`
 
 # CLI
 
-Run `node cli.js --help`
+Run `resxclone --help`
 
 # API
 
