@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/TiagoDanin/resXClone#readme",
   "dependencies": {
-    "caporal": "0.10.0",
+    "caporal": "1.1.0",
     "rdotjson": "0.1.3",
     "xmlbuilder": "10.1.1",
     "snyk": "1.108.1"
