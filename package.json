@@ -1,21 +1,14 @@
 {
   "name": "resxclone",
+  "main": "index.js",
   "version": "1.1.3",
   "description": "A utility to clone and update xml resources file",
-  "main": "index.js",
-  "bin": {
-    "resxclone": "cli.js"
+  "author": {
+    "name": "Tiago Danin",
+    "email": "TiagoDanin@outlook.com",
+    "url": "https://TiagoDanin.github.io"
   },
-  "scripts": {
-    "test": "node test.js",
-    "cli": "node cli.js",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TiagoDanin/resXClone.git"
-  },
+  "license": "GPL-3.0",
   "keywords": [
     "android",
     "windows",
@@ -26,17 +19,41 @@
     "resources",
     "translation"
   ],
-  "author": "Tiago Danin <TiagoDanin@outlook.com> (https://TiagoDanin.github.io)",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/TiagoDanin/resXClone/issues"
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "cli": "node cli.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "homepage": "https://github.com/TiagoDanin/resXClone#readme",
+  "private": false,
+  "repository": "https://github.com/TiagoDanin/resXClone.git",
+  "homepage": "https://TiagoDanin.github.io/resXClone",
+  "bugs": "https://github.com/TiagoDanin/resXClone/issues",
+  "github": {
+    "name": "resXClone",
+    "owner": "TiagoDanin"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "cli.js",
+    "index.js",
+    "package.json"
+  ],
+  "bin": {
+    "resxclone": "cli.js"
+  },
   "dependencies": {
     "caporal": "1.1.0",
     "rdotjson": "0.1.3",
     "xmlbuilder": "12.0.0",
     "snyk": "1.143.5"
   },
-  "snyk": true
+  "snyk": true,
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "documentation": "./docs.md"
 }
