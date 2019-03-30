@@ -1,7 +1,7 @@
 {
   "name": "resxclone",
   "main": "index.js",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "A utility to clone and update xml resources file",
   "author": {
     "name": "Tiago Danin",
@@ -47,8 +47,8 @@
   "dependencies": {
     "caporal": "1.1.0",
     "rdotjson": "0.1.3",
-    "xmlbuilder": "12.0.0",
-    "snyk": "1.143.5"
+    "snyk": "1.143.5",
+    "xmlbuilder": "12.0.0"
   },
   "snyk": true,
   "preferGlobal": true,
