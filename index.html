@@ -81,14 +81,27 @@ baseURL: https://tiagodanin.github.io
 
 
 <div class="uk-container">
-	<h1 id="resxclone-build-status"><a href="#resxclone-build-status">resXClone <a href="https://travis-ci.org/TiagoDanin/resXClone"><img src="https://travis-ci.org/TiagoDanin/resXClone.svg?branch=master" alt="Build Status"></a></a></h1>
-<p><a href="https://nodei.co/npm/resxclone/"><img src="https://nodei.co/npm/resxclone.png?downloads=true&#x26;downloadRank=true&#x26;stars=true" alt="NPM"></a></p>
+	<h1 id="resxclone"><a href="#resxclone">ResXClone</a></h1>
+<p><a href="https://npmjs.org/package/resxclone"><img src="https://img.shields.io/node/v/resxclone.svg?style=flat-square" alt="Node"></a>
+<a href="https://npmjs.org/package/resxclone"><img src="https://img.shields.io/npm/v/resxclone.svg?style=flat-square" alt="Version"></a>
+<a href="https://npmjs.org/package/resxclone"><img src="https://img.shields.io/npm/dt/resxclone.svg?style=flat-square" alt="Downloads"></a>
+<a href="https://travis-ci.org/TiagoDanin/resXClone"><img src="https://img.shields.io/travis/TiagoDanin/resXClone.svg?branch=master&#x26;style=flat-square" alt="Travis"></a></p>
 <p>A utility to clone and update xml resources file</p>
-<h1 id="install"><a href="#install">Install</a></h1>
-<p>NPM <code>npm install resxclone</code></p>
-<h1 id="cli"><a href="#cli">CLI</a></h1>
+<h2 id="installation"><a href="#installation">Installation</a></h2>
+<p>Module available through the
+<a href="https://www.npmjs.com/">npm registry</a>. It can be installed using the
+<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm</code></a>
+or
+<a href="https://yarnpkg.com/en/"><code>yarn</code></a>
+command line tools.</p>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># NPM</span>
+npm install resxclone --global
+<span class="hljs-comment"># Or Using Yarn</span>
+yarn global add resxclone</code></pre>
+<h2 id="documentation"><a href="#documentation">Documentation</a></h2>
+<h3 id="cli"><a href="#cli">CLI</a></h3>
 <p>Run <code>resxclone --help</code></p>
-<h1 id="api"><a href="#api">API</a></h1>
+<h3 id="api"><a href="#api">API</a></h3>
 <p><strong>writeXml</strong></p>
 <ul>
 <li><code>writeXml(name, xml)</code></li>
@@ -109,6 +122,23 @@ baseURL: https://tiagodanin.github.io
 <li><code>createXml(strings)</code></li>
 </ul>
 <p>e.g <code>createXml({name: 'TiagoDanin'})</code></p>
+<h2 id="tests"><a href="#tests">Tests</a></h2>
+<p>To run the test suite, first install the dependencies, then run <code>test</code>:</p>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># NPM</span>
+npm <span class="hljs-built_in">test</span>
+<span class="hljs-comment"># Or Using Yarn</span>
+yarn <span class="hljs-built_in">test</span></code></pre>
+<h2 id="dependencies"><a href="#dependencies">Dependencies</a></h2>
+<ul>
+<li><a href="https://ghub.io/caporal">caporal</a>: A full-featured framework for building command line applications (cli) with node.js</li>
+<li><a href="https://ghub.io/rdotjson">rdotjson</a>: Android String Resource XML Parser</li>
+<li><a href="https://ghub.io/xmlbuilder">xmlbuilder</a>: An XML builder for node.js</li>
+<li><a href="https://ghub.io/snyk">snyk</a>: snyk library and cli utility</li>
+</ul>
+<h2 id="contributors"><a href="#contributors">Contributors</a></h2>
+<p>Pull requests and stars are always welcome. For bugs and feature requests, please <a href="https://github.com/TiagoDanin/resXClone/issues">create an issue</a>. <a href="https://github.com/TiagoDanin/resXClone/graphs/contributors">List of all contributors</a>.</p>
+<h2 id="license"><a href="#license">License</a></h2>
+<p><a href="LICENSE">GPL-3.0</a></p>
 
 
 	<hr class="uk-margin-top-remove uk-divider-icon">
