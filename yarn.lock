@@ -2378,10 +2378,10 @@ xml2js@^0.4.17:
     sax ">=0.6.0"
     xmlbuilder "~9.0.1"
 
-xmlbuilder@12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-12.0.1.tgz#885f0ab731e0c9bfd4970381513760131cc71a25"
-  integrity sha512-rRjf/JR+sEMqU2o6WEA+iR/YRIegH3P35eiQuCsT1YfZqOS+iu23azPq0igZjpBX+wa7D8gHd845kLPzow7IKg==
+xmlbuilder@13.0.2:
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-13.0.2.tgz#02ae33614b6a047d1c32b5389c1fdacb2bce47a7"
+  integrity sha512-Eux0i2QdDYKbdbA6AM6xE4m6ZTZr4G4xF9kahI2ukSEMCzwce2eX9WlTI5J3s+NU7hpasFsr8hWIONae7LluAQ==
 
 xmlbuilder@~9.0.1:
   version "9.0.7"
