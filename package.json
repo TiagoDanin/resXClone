@@ -47,7 +47,7 @@
   "dependencies": {
     "caporal": "1.2.0",
     "rdotjson": "1.0.3",
-    "snyk": "1.147.1",
+    "snyk": "2.0.0",
     "xmlbuilder": "13.0.2"
   },
   "snyk": true,
