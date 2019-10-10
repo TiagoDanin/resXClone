@@ -63,8 +63,6 @@ yarn test
 - [caporal](https://ghub.io/caporal): A full-featured framework for building command line applications (cli) with node.js
 - [rdotjson](https://ghub.io/rdotjson): Android String Resource XML Parser
 - [xmlbuilder](https://ghub.io/xmlbuilder): An XML builder for node.js
-- [snyk](https://ghub.io/snyk): snyk library and cli utility
-
 
 
 ## Contributors
