@@ -49,7 +49,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=v14.16.1"
+    "node": ">=18.18.2"
   },
   "documentation": "./docs.md"
 }
