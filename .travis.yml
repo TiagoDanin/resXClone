@@ -3,7 +3,7 @@ node_js:
     - "9"
     - "8"
     - "7"
-    - "6"
+    - "6.17.1"
 install:
     - npm install
 script:
